@@ -1,0 +1,41 @@
+
+sysadmin_groups: ['sudo',]
+
+amana_sysadmins:
+  gassi:
+    realname: "Reto Gassmann"
+    password: "$6$rounds=656000$.5R.mM0lwpk7FqU6$sfq7Rtc19kCIM.8gLAJyYHQwFVy84pPQEXWvV4skiJLf403CBjlrwBV3zen5vUWqLRd53PQE7U0/PkVzj3VJ1."
+    pubkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCxd+mqYI+sMqGIQzEKbhcapisufukCmTdXaIx886SaTEWoufOtFhjvK01dI4UOI2np5W815s/tHERg94pZ3utCG+fd+Z0qwxIJQBEvg8wTvVfmcnWdwxRvI1fn4BIeZT0O90/1C6I/eOAwK7pS88M7gu7ZKSOs54kFYJ3+fZevuHcMSBDZ9V+8QfAGFebYr+myiqcSQd949dx6DxPR9QyexZFmUFU+2DNJMj6iDIPl8dJjfonLHNm4b6FjiNYKCwkuIqJFnOKSKUFdKkhSnQxLuAoAUR2FjIzO03rg718SD8ExPY0o2l2oHqCLDBsOCuYimLqKQkOGDKWBsf7SaWyj gassi@Retos-Air"
+  vincent:
+    realname: "Vincent Kräutler"
+    password: "$6$rounds=656000$WJDG.xEaLC9kYWs2$qSB/eZyFI79Tt0xyy44qcxwIkzxX5JCsF5VScJNcDXRy/DG2MLVOnUzilzwcWWcKPCeMgIg0DO0CXgXNYakkH."
+    pubkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCjJmmHU21uffREiuFJWIaRzyfFm0BlJ+S6dE1YT7Fy0AYLGDT/q7Yy91Vb4gSNFSua5pqLhStmg4iU7Z82aVrMpmcflkDThOJQ9IGzVadaDrLGBD10yCqyLnH+HFy3uv+wcex9ZESVv/6Fw8SnF12320i89eCw9KRf0RsmgVabXfFJWM3JGYnPQ3UQTpd/IBID2SHvgQGMbPT6rQaYXQDxU0aOwqKo12qq1srph/s8/6IDhfrw2LOfwQpaN7w9HhpukLtM99koAqYJiVnIDalsKUMPw0rTpD8sS6UeEAsXogf735hrhwe2wsfz5yR05pkAue5EReTiNs8FVPuYVSmwe0gzDIQsUNkG/xiO35C44/e1bV9WTRC3GSwYDlEgT6DcwMnRYRhe4AGOIfEMAbnb9IY1235M763y+1c+1M/a27H/BIRUALejyyXqrMgyB2XJykJ+7EEIcSXo3IWyPNEMdVJaMvRsNsZMdmt5ZRan4gqlr1c2POIrPssiBmJ2UNAFAb2ksArHQ8IYmmM/WicLMjychO5V8KgMcfJpZPfsx3SBT0M8mjteYTvp4BTu9qiATn47mISfBxU7ROPqb0SIuHtR+6A/BFc0893TGUITaW+vM2YU8/rBGMdALzVRG7IgCH1KXmBoG/9J8SRJTqcmTuQTrPkuYcIt/PWxiEbwTw== vincent.kraeutler@amanaadvisors.com"
+  philippe:
+    realname: "Philippe Lachaud"
+    pubkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD/rpIcz/SJnG5a9NPjmqhgOiFu1cAVRtCSZtN/og/zytfbv3D1bBm262GxRezldQbBXThuEslaMePFCr+dYsPUbIJcr6uAaCmohGkGD5eptx3aHDXAfOYrrJLXWqJEQMVJWxkaiQ0ZEFHZhxwdfTw1Iepuqm9L+NGIr/Ye36aNuToLVxFzNKNFTTaoSn9S7omVgZPeeyCXSzzwxjhmNRqs+SKaahBf6EAfUQhyrP+Msjfv3ftgd/YnE3XptxKq1jFkAa5x/+YjtYMmhZkJuQSB3bd0I1js9CVVpLYgy84bJrtvVZFtSuy89QUovNjpUIIhLxdLtmGHnp+oywUW0yPH philippe@Philippes-MacBook-Pro.local"
+    password: "$6$fIhJ2DBI6vp$61FCjynEjYjS8J4c9P45BA3wBhKw/julIyt5jVpENvsZRRVHH00FU/7aqRfN.SZa03DBhLTGq69PJ6Y4wtYbi."
+  mwielgosz:
+    remove: True
+  flo:
+    realname: "Florian Wittwer"   
+    pubkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDnrtLCqbYx+Dc6cWVivyaZ3rqcPU6iFvSrcoVwRgyHe/Z8/KiNIgASFW9eO6NvCr49LIepo3oB0uTPljpzXkTyhIl+Hde184PxD5+DR7k5Wng5AnkENXaCcAvW3TlVPNUxFY6Ctg0DhvIzdvuWbgrrur4rmcuCseJ3WJL1CiQl21WE1qssPAwsv48g5inkEZvcm2xDPaQFQ4knwrArkEDiUglSdBjkmpCtygeynExup4XCf5hUXgrNFKPOkBZRkB+RfiN9z/1RRQqCWWr8QUUnr/L+mfj7k9i1yYM5mv0uRdDkRZ/+TuJKr0Vii+aiv76u7/4qYKyZ3RMDXhHMGcC7 flo@flolaptop"
+    password: "$6$kXbrNT1ul.L35$9M4ZYL/XP7eDmGgSaWw.5GCTRxUFVV8XfaD9fRx4vaSZe2Hnn7dN3OoqdHvq4m9.lvo1oLEQ3kC5QN78n1WyL1"
+  stocal1:
+    remove: True
+  frankie:
+    remove: True
+  nico:
+    remove: True
+  yuriyv:
+    remove: True
+  tomasz:
+    realname: "Tomasz Klosinski"   
+    pubkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDjz5zLuRCkbj7zSYdV9X2okVcXDOg/ASCfxA5jy3M1r7cemNXJUFBshfqTaic7tPg29g3Wb0V4XlNNBkkO9B+p5Byvf76AStF1GP3mtCoj4//1WTcp+VHn26trLNt35IulG7uJiQY1fjbtxKK/uSqdAvvIWp4RamlcaSqjApchuI6+3NyhC45kf14bi384mFg14ZdWPxs3hGhB9/wxSHgtSkAfZ/CN9JdefFm2GHRCIggt+Czu35UgvbQ42LBr6jAO6x6E+wlWnXF91kd0NLSAh8nugpeejlKTo1+336yNrfOc8Q3OF/SLjq1AJdGb8u9vqarc716KZpqB+4Ek9cWn tomasz@Tomaszs-MacBook-Pro.local"
+    password: "$6$y38n3pa8CuJwWp1k$unsiJh3XTo5Qoz0n8uCIQaEja3kih81VP2.0h7pm/.0nvfO0yrU2bjYS48AmA7XqW2V6s69RhKSKWl5gz4lPs0"
+  mohamed:
+    realname: "Mohamed Habas"
+    pubkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCiBLQFGLJhskM6WlJgFuxKvP44GHnCLGqWGgmZEpaA2HZAj3nxN7LTasBvXmt0d8ofr/AI0aZOt2cjnj1vN487LvtZ8G5H1wjO+kkjfU8W30waj4h5Yaq9V01v/FHlZVz/usHYUInEEkKFAa2MyPNkDsqNqvWHBdw6AGKVV4c5KtPv/LeUc6oSMeZaCWdAsB6EB10o1ht2lXaRi4P4FTusxRM/Dc2lndW2MPCExTj4GNkK127Yp2FAR+uYn5hrm9tVA6wMsKZk7VFW6sJJ2wCTPgj23jB3HfwJmPY3BMIME8xpVs9ddZl1StG28FLYmvtK2mWhQiL9zGVW04vxeRB2rTwQBjgCnKYhVcpXnXTtTlPQWoL9OGv8BsI9XDmnMx3UR3vmzoOw3JgCIUArEEHXkl4khfHJE12sG5iEDBirKSq6D0hdZyRWN72moQm+Vdauh8n4XhWxguTnedyPZbW7TPPgENUpj6u1DtNnWN1cteMsaS4KrHTASzvt2mD4gAogNK9gLdXRJa66uC6xaKhMeu/XQARjij+BL1KJEL7WuQjvjI2F0md6NwMyN0VVwWmTqKg2lzuNzlQcIQQDNCyLodohALX5Mq2SDf/V5sZ2nssa8nI5ld4epBkt3LJ5Agp9nFkZq0L0DrBRJ9Ihh9i+JSIlNlr7NyEiJqOb4b3EcQ== mohamed@boxy"
+    password: "$6$RH8qozBzER9xvEk3$m7BxLhAxwU0MDvZMMADXakDIG0jV5noBcZHjNxxYG3A3ViNntjMkdRAAT6KEFrUa/ziBSLCfYDx8Nfeqk.pP6."
+    
+    
+    

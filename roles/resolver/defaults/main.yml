@@ -1,0 +1,17 @@
+---
+
+resolver_default_gw: "{{ ansible_default_ipv4.gateway }}"
+
+resolver_dns_search: "{{ default_search_domains }}"
+
+resolver_options:
+  - "timeout:3"
+  - "attempts:1"
+
+resolver_nameservers_per_gw:
+  10.10.10.1: "{{ default_dns }}"   # internal
+  11.11.11.1: "{{ default_dns }}" # redundant public net
+  192.168.88.1: # Test Enviorment 
+    - "{{ internal_dns }}"
+    - 8.8.8.8
+    - 8.8.4.4

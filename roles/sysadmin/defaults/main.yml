@@ -1,0 +1,16 @@
+
+sysadmin_groups: ['sudo',]
+
+sysadmins:
+  sysadmin_01:
+    realname: "$TEAM_LEAD"
+    password: "$(date | md5sum)"
+    pubkey: "($pubkey)"
+  sysadmin_02:
+    realname: "$COWORKER"
+    password: "$(date | md5sum)"
+    pubkey: "($pubkey)"
+  $leaving_admin:
+    remove: True  
+# needs a scripts to fill in public keys from the installer 
+# list of leaving admins needs to be maintaned will be used to update this file 

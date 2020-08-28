@@ -1,0 +1,43 @@
+---
+
+# adjust some sysctl
+# params (like network-memory)
+sysctl_purpose: server
+
+# --------------------------------------------
+# Libvirt configuration
+# --------------------------------------------
+
+libvirt_directory_pools:
+  - name: local-pool
+    path: /srv/libvirt/pool
+
+# --------------------------------------------
+# Network configuration
+# --------------------------------------------
+
+network_iptables: true
+
+resolver_nameservers_per_gw:
+  192.168.**.**: "{{ DNS_SERVER }}"
+  172.168.**.**: "{{External_DNS_SERVER}}"
+
+network_interfaces_map:
+
+  20-br88:
+    type:            bridge
+    remarks:         "Bridge for VM's"
+    method:          static
+    address:         "{{ lookup('dig', inventory_hostname ) }}"
+    netmask:         255.255.252.0
+    gateway:         auto
+    bridge_ports:
+      - enp37s0
+
+
+# --------------------------------------------
+# LVM , FILESYSTEM  configuration
+# --------------------------------------------
+# this is defined in host_vars
+
+libvirt_guests: []

@@ -1,0 +1,11 @@
+[k8s_Vm_group]
+etcd-01
+etcd-02
+etcd-03
+haproxy-01
+haproxy-02
+master-01
+master-02
+worker-01
+worker-02
+# ---------------------------
