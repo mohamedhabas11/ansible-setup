@@ -1,22 +1,8 @@
 ---
-
-
-- name: check network_san_ip
-  fail:
-    msg: "No DNS entry found for {{ network_san_name }}"
-  when: network_san_ip is defined and network_san_ip == 'NXDOMAIN'
-
-
 - name: check network_host_ip
   fail:
     msg: "No DNS entry found for {{ inventory_hostname }}"
   when: network_host_ip is defined and network_host_ip == 'NXDOMAIN'
-
-
-#- name: set hostname
-#  hostname:
-#    name: "{{ move_hostname|default(inventory_hostname) }}"
-
 
 - name: install lldpd, ethtool
   apt:

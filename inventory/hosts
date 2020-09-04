@@ -1,3 +1,9 @@
+
+[kvm-host]
+$(kvm.host)
+
+
+
 [k8s_Vm_group]
 etcd-01
 etcd-02

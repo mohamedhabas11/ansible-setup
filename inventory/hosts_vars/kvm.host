@@ -2,7 +2,7 @@
 
 libvirt_guests:
 
-  - name: office-quant-01.amana.vpn
+  - name: kvm.host
     vi_autostart: true
     vi_extra_args: locale=de_CH.UTF-8 console-setup/ask_detect=false keyboard-configuration/layoutcode=ch file=file:/preseed.cfg netcfg/do_not_use_netplan=true vga=788 quiet
     vi_location: http://ch.archive.ubuntu.com/ubuntu/dists/bionic/main/installer-amd64/
