@@ -1,4 +1,4 @@
-# Amana networking
+# networking
 
 Define all interfaces as a list of dicts
 
